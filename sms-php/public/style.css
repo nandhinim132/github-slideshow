@@ -1,0 +1,18 @@
+/* basic styles shared */
+body { font-family: Arial, sans-serif; }
+table { border-collapse: collapse; width: 100%; background:#fff; }
+th, td { border:1px solid #e5e7eb; padding:8px; text-align:left; }
+th { background:#f3f4f6; }
+.btn { display:inline-block; background:#2563eb; color:#fff; padding:6px 10px; border-radius:6px; text-decoration:none; }
+.btn.small { padding:4px 8px; font-size:12px; }
+.btn.red { background:#dc2626; }
+.btn.gray { background:#6b7280; }
+.field { margin:8px 0; }
+.field label { display:block; font-size:14px; color:#374151; margin-bottom:4px; }
+.field input, .field select { width:100%; padding:8px; border:1px solid #d1d5db; border-radius:6px; }
+.actions { display:flex; gap:8px; }
+.container { padding: 20px; }
+.muted { color:#6b7280; }
+.error { color:#b91c1c; margin:8px 0; }
+.success { color:#065f46; margin:8px 0; }
+
